@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trigonometry - QUIZ</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="quiz">
+            <div class="score-container">
+                <div class="container">
+                    <div class="attempts box">Attempts
+                        <div class="value">0</div>
+                    </div>
+                    <div class="corrects box">Corrects
+                        <div class="value">0</div>
+                    </div>
+                    <div class="failed box">Failed
+                        <div class="value">0</div>
+                    </div>
+                </div>
+            </div>
+            <div class="announcement-container">
+                <div class="text" id="announcement" style="display: none;">Correct</div>
+            </div>
+            <div class="question"></div>
+            <div class="quiz-submit-container">
+                <div class="container">
+                    <form id="quizForm">
+                        <input type="text" id="quiz-input" required>
+                        <button type="submit" id="submit-quiz">Go</button>
+                    </form>
+                </div>
+            </div>
+            <div class="input-options-container">
+                <div class="container">
+                    <div class="one">
+                        <button class="oneBtn" title="Number 0">0</button>
+                    </div>
+                    <div class="two">
+                        <button class="twoBtn" title="Number 1">1</button>
+                    </div>
+                    <div class="three">
+                        <button class="threeBtn" title="Number 2">2</button>
+                    </div>
+                    <div class="four">
+                        <button class="fourBtn" title="Number 3">3</button>
+                    </div>
+                    <div class="root">
+                        <button class="rootBtn" title="Root">√</button>
+                    </div>
+                    <div class="infinity">
+                        <button class="infinityBtn" title="Infinity">∞</button>
+                    </div>
+                    <div class="divide">
+                        <button class="divideBtn" title="Divide">/</button>
+                    </div>
+                    <div class="delete">
+                        <button class="delBtn" title="Backspace">⌫</button>
+                    </div>
+                    <div class="deleteAll">
+                        <button class="delAllBtn" title="Delete All">Del</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="developer-info">Developed by <span>Mahfuj Ahmod</span></div>
+    </footer>
+</body>
+</html>

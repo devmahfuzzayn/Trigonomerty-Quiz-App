@@ -1,0 +1,163 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.quiz-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.quiz 
+{
+    .score-container
+    {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+
+        .container
+        {
+            display: flex;
+
+            div.box
+            {
+                margin: 0 30px;
+                display: flex;
+                font-size: 27px;
+                font-weight: 700;
+
+                div
+                {
+                    font-size: 22px;
+                    padding: 0 10px;
+                    padding-top: 10px;
+                }
+            }
+
+            div.box:nth-child(2) 
+            {
+                color: rgb(15, 185, 9);
+            }
+
+            div.box:nth-child(3)
+            {
+                color: rgb(214, 34, 17);
+            }
+        }
+    }
+
+    .announcement-container
+    {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+
+        .text 
+        {
+            // background: rgb(214, 34, 17);
+            width: 200px;
+            text-align: center;
+            padding: 10px 0;
+            border-radius: 4px;
+            font-size: 20px;
+            color: #fff;
+        }
+    }
+
+    .question
+    {
+        text-align: center;
+        font-size: 35px;
+    }
+}
+
+.quiz-submit-container
+{
+    margin: 40px 0;
+}
+
+.quiz-submit-container
+{
+    .container
+    {
+        display: flex;
+        justify-content: center;
+
+        form
+        {
+            input#quiz-input
+            {
+                height: 30px;
+                background: #ccc;
+                padding: 10px;
+                font-size: 20px;
+                border-radius: 4px;
+                border: none;
+                outline: none;
+            }
+
+            button#submit-quiz
+            {
+                height: 100%;
+                padding: 10px 15px;
+                background: crimson;
+                font-size: 20px;
+                border: none;
+                outline: none;
+                color: #fff;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.input-options-container
+{
+    .container
+    {
+        display: flex;
+
+        div
+        {
+            button
+            {
+                height: 45px;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                border-radius: 4px;
+                background: #3498db;
+                color: #fff;
+                font-size: 20px;
+                margin: 0 5px;
+                padding: 10px 20px;
+            }
+        }
+    }
+}
+
+.footer
+{
+    position: sticky;
+    left: 0;
+    bottom: 0;
+
+    div.developer-info
+    {
+        text-align: right;
+        padding: 10px;
+
+        span
+        {
+            font-weight: 700;
+        }
+    }
+}
